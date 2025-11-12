@@ -1,0 +1,2 @@
+[console_scripts]
+squadcast-analyze = squadcast_analyze.cli:app

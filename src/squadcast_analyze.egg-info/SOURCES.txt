@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/squadcast_analyze/analyzer.py
+src/squadcast_analyze/auth.py
+src/squadcast_analyze/cli.py
+src/squadcast_analyze/client.py
+src/squadcast_analyze/config.py
+src/squadcast_analyze/init.py
+src/squadcast_analyze/io_utils.py
+src/squadcast_analyze/main.py
+src/squadcast_analyze.egg-info/PKG-INFO
+src/squadcast_analyze.egg-info/SOURCES.txt
+src/squadcast_analyze.egg-info/dependency_links.txt
+src/squadcast_analyze.egg-info/entry_points.txt
+src/squadcast_analyze.egg-info/requires.txt
+src/squadcast_analyze.egg-info/top_level.txt
