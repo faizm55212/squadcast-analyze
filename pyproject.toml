@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "squadcast-analyze"
+version = "0.1.0"
+description = "Private toolkit to collect, process, and analyze Squadcast API data"
+authors = [{name="Wilton Paulo da Silva"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+"requests",
+"python-dotenv",
+"pandas",
+"tabulate",
+"typer[all]"
+]
+
+[project.scripts]
+squadcast-analyze = "squadcast_analyze.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
