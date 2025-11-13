@@ -64,7 +64,7 @@ SQUADCAST_TEAM_ID=<id>
 SQUADCAST_ASSIGNEE_ID=<user_id>
 DEFAULT_START=2025-11-10T00:00:00.000Z
 DEFAULT_END=2025-11-12T23:59:59.999Z
-STATUS=Acknowledged
+STATUS=acknowledged
 ```
 
 > 💡 You can generate a new `REFRESH_TOKEN` in Squadcast under your **API Integrations** page.
@@ -91,7 +91,7 @@ Optional flags:
 - `--team none` → ignore TEAM_ID (fetch all).
 - `--assignee <user_id>` → fetch using assignee's user id.
 - `--tags 'alert_type=mem(k8)'` → filter for a specific tag.
-- `--status Acknowledged` → filter for status of the alert.
+- `--status acknowledged` → filter for status of the alert.
 - `--debug` → show full URL and response preview.
 
 Results are saved under `data/raw/`, e.g.:

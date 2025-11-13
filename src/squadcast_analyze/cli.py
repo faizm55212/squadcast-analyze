@@ -43,7 +43,7 @@ def fetch(
     start: Optional[str] = typer.Option(None, help="ISO start time (UTC)"),
     end: Optional[str] = typer.Option(None, help="ISO end time (UTC)"),
     tags: Optional[str] = typer.Option(None, help="Single Tag as key=value"),
-    status: Optional[str] = typer.Option(None, help="Status=Acknowledged"),
+    status: Optional[str] = typer.Option(None, help="Status=acknowledged"),
 
     # Assignee filters
     team: Optional[str] = typer.Option(None, help="Owner/team id (owner_id)"),
