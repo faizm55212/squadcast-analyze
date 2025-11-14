@@ -2,11 +2,14 @@
 __pycache__/
 *.pyc
 .venv/
+*.egg-info/
+src/*.egg-info/
 
 # Env
 .env
 
 # Data
+data/
 data/raw/*.json
 data/raw/*.csv
 data/processed/*.csv
